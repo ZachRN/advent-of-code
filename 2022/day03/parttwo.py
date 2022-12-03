@@ -10,13 +10,10 @@ with open("input.txt", 'r') as f:
 output = 0
 i = 0
 while i < len(myinput):
-	A = myinput[i]
-	B = myinput[i + 1]
-	C = myinput[i + 2]
-	letter = find_common_letter(A,B,C)
-	if (ord(str(letter)) >= 97):
-		output = output + ord(str(letter)) - 96
+	letter = find_common_letter(myinput[i], myinput[i + 1], myinput[i + 2])
+	if (ord(letter) >= 97):
+		output = output + ord(letter) - 96
 	else:
-		output = output + ord(str(letter)) - 38
+		output = output + ord(letter) - 38
 	i += 3
 print(output)
