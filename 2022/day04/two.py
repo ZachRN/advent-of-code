@@ -14,8 +14,6 @@ for line in myinput:
 
 	if (twomin in range(onemin, onemax+1) or twomax in range(onemin, onemax+1)):
 		output += 1
-		continue
-	if (onemin in range(twomin,twomax+1) or onemax in range(twomin, twomax+1)):
+	elif (onemin in range(twomin,twomax+1) or onemax in range(twomin, twomax+1)):
 		output += 1
-		continue
 print(output)

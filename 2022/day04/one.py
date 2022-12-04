@@ -12,12 +12,8 @@ for line in myinput:
 	twomin = int(elfrange2[0])
 	twomax = int(elfrange2[1])
 
-	if (onemin <= twomin):
-		if (onemax >= twomax):
-			output += 1
-			continue
-	if (twomin <= onemin):
-		if (twomax >= onemax):
-			output += 1
-			continue
+	if (onemin <= twomin and onemax >= twomax):
+		output += 1
+	elif (twomin <= onemin and twomax >= onemax):
+		output += 1
 print(output)
