@@ -2,7 +2,7 @@ def find_common_letter(A, B, C):
 	for i in range(0, len(A)):
 		if A[i] in B and A[i] in C:
 			return A[i]
-	return (0)
+	return (38)
 
 #Advent of Code 2022 Day Three Part one
 with open("input.txt", 'r') as f:
