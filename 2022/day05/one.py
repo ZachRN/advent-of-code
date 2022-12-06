@@ -22,7 +22,6 @@ def findDefault(myList):
 
 with open("input.txt", 'r') as f:
 	myinput = f.readlines()
-output = 0
 # 1 = 1; 2 = 5; 3 = 9; 4 = 13; 5 = 17; 6 = 21; 7 = 25; 8 = 29; 9 = 33;
 myList = []
 for i in range(9):
