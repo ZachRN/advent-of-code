@@ -1,6 +1,7 @@
 import java.io.File
 import java.io.InputStream
 
+//Advent of Code Day 1 Part 2 - @ZachRN Github
 
 fun convertTextToNumber(text: String): String
 {
@@ -22,7 +23,6 @@ fun convertTextToNumber(text: String): String
 	}
 }
 
-//Val can't be reassigned, but var can be good to know.
 fun main()
 {
 	val inputStream: InputStream = File("input.txt").inputStream();
