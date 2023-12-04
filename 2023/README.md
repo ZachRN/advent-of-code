@@ -6,3 +6,4 @@ Day 1 was just the basic learning, gathering knowledge on Val/Var/If/For/etc.. j
 
 Day 2 is all about learning about the Run Keyword, is it working like a lambda? Is it a go-to? A jump? Who knows I'm figuring it out.
 
+Day 3 is totally about me learning global variables in Kotlin.. not being lazy at all.. I learned about init {} keyword atleast.. I also got better at making function to declare data types in it and also arrayOf vs listOf
